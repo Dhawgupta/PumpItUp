@@ -197,7 +197,7 @@ def data_preprocessing(df, mode):
 
 with timer("Reading input files"):    
 
-    data_path = '/home/ubuntu/toxic/PumpItUp/'
+    data_path = '/home/ubuntu/toxic/PumpItUp/PumpItUp-master/'
     
     train_df = pd.read_csv(data_path + 'train.csv')
     test_df = pd.read_csv(data_path + 'test.csv')
